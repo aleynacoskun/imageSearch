@@ -55,7 +55,19 @@ form button{
 #show-more-btn{
     background: #ff3929;
     color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
     border-radius: 4px;
-
+    margin: 10px auto 100px;
+    cursor: pointer;
+    display: none;
+}
+#search-result{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
 
 }
